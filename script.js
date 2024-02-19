@@ -34,7 +34,7 @@ const bubleMaker = () => {
           "Jeu terminé! Votre score : " +
             counter +
           `\n Bulles non éclatées : ${echec}` +
-          "\nVoulez-vous rejouer?"
+          "\n Voulez-vous rejouer?"
       );
       if (restartGame) {
         // Réinitialiser les compteurs
