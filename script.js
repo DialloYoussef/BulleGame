@@ -32,8 +32,8 @@ const bubleMaker = () => {
       clearInterval(bubbleInterval);
       const restartGame = confirm(
           "Jeu terminé! Votre score : " +
+            counter +
           `\n Bulles non éclatées : ${echec}` +
-          counter +
           "\nVoulez-vous rejouer?"
       );
       if (restartGame) {
